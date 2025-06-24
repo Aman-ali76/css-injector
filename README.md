@@ -34,7 +34,7 @@ Welcome to **CSS Injector Site-Specific** - the ultimate browser extension that 
 
 ## 📁 File Structure Overview
 
-\```
+```
 css-injector-extension/
 ├── 📄 manifest.json          # Extension configuration and permissions
 ├── 🎨 popup.html            # Main popup interface
@@ -48,7 +48,7 @@ css-injector-extension/
 │   ├── icon48.png
 │   └── icon128.png
 └── 📚 README.md             # You are here! 👋
-\```
+```
 
 ### 🔧 Core Components
 
@@ -138,12 +138,6 @@ This extension is provided "as is" without warranty of any kind. While we strive
 - **Transparency**: Open-source code available for review
 - **No Tracking**: Zero telemetry or user tracking
 - **Local First**: All processing happens on your device
-
----
-
-## 👨‍💻 About the Author
-
-**Aman Ali**
 
 ---
 
