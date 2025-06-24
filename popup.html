@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 350px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .site-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .site-icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+    .site-name {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    textarea {
+      width: 100%;
+      height: 200px;
+      margin: 10px 0;
+      padding: 5px;
+      resize: vertical;
+      font-family: monospace;
+      tab-size: 4;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    button.reset {
+      background: #ff4444;
+    }
+    button.reset:hover {
+      background: #cc0000;
+    }
+    .shortcut-info {
+      font-size: 12px;
+      color: #666;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="site-info">
+    <img id="siteIcon" class="site-icon" src="" alt="Site Icon">
+    <span id="siteName" class="site-name"></span>
+  </div>
+  <textarea id="cssInput" placeholder="Enter your custom CSS here..."></textarea>
+  <button id="saveButton">Save CSS</button>
+  <button id="resetButton" class="reset">Reset Style</button>
+  <button id="checkClassButton">Inspect</button>
+  <div class="shortcut-info">
+    Press <strong>Ctrl + Shift + C</strong> to copy the class/ID of the hovered element.
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

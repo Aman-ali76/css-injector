@@ -1,0 +1,10 @@
+button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+.inspect-highlight {
+    outline: 2px solid #007bff !important;
+    background: rgba(0, 123, 255, 0.1) !important;
+    pointer-events: none !important;
+}
